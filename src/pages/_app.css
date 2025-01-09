@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: linear-gradient(135deg,
+      #ffccf9,
+      /* 粉色 */
+      #ffebcc,
+      /* 柔和橙色 */
+      #ccf5ff
+      /* 浅蓝色 */
+    );
+  background-size: 400% 400%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+/* 背景渐变动画 */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
