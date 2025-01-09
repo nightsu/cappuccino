@@ -1,3 +1,15 @@
+# ☕️ Cappuccino
+
+A website designed to provide a friendly interactive experience for my daughter.
+
+## Product Design
+
+<!-- TODO -->
+
+## Code Design
+
+<!-- TODO -->
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
